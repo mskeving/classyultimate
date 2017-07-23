@@ -1,0 +1,14 @@
+.players {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  .player-card {
+    width: 150px;
+    margin-top: 15px;
+    img {
+      width: 100px;
+      overflow: hidden;
+    }
+  }
+}

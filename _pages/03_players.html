@@ -1,0 +1,16 @@
+---
+layout: page
+title: Players
+permalink: /players/
+---
+
+<div class="players">
+  {% for player in site.data.players %}
+    <div class="player-card">
+      <div class="photo-container">
+          <img class="photo" src={{ player.photo_url }}>
+      </div>
+        {{ player.name }}, {{ player.number }}
+    </div>
+  {% endfor %}
+</div>
