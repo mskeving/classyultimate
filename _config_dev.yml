@@ -1,12 +1,11 @@
 # Site Settings
-title: Start Jekyll
-email: taniarascia@gmail.com
+title: Classy Ultimate
+email: mskeving@gmail.com
 description: >
-  A guide to getting started with Jekyll.
+  Bay Area Blappers
 baseurl: ""
 url: "http://localhost:4000"
-twitter_username: taniarascia
-github_username:  taniarascia
+twitter_username: classychains
 # Build Settings
 sass:
   sass_dir: _sass
