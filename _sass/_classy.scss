@@ -1,3 +1,32 @@
+aside {
+  background: black;
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .home-img {
+    margin: 7px 7px 1px 25px;
+    margin-left: 25px;
+    img {
+      height: 65px;
+    }
+  }
+  .nav-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 15px;
+    .nav-link {
+      padding: 5px;
+      margin: 0 14px;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
 .players {
   display: flex;
   flex-direction: row;

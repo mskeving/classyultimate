@@ -1,14 +1,9 @@
 <aside>
-	<div class="container">
-		<nav>
-			<ul>
-				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-			</ul>
-			</li>
-			</ul>
-		</nav>
+	<div class="home-img nav-link"><a href="/"><img src={{ "/assets/disco_ball.png" | prepend: site.baseurl }}></a></div>
+	<div class="nav-container">
+		{% for page in site.pages %} {% if page.title %}
+		<div><a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></div>
+		{% endif %} {% endfor %}
 	</div>
 </aside>
 
