@@ -1,3 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 60px;
+  padding-top: 20px;
+}
+
+
 aside {
   background: black;
   border-bottom: none;
@@ -9,7 +27,7 @@ aside {
     margin: 7px 7px 1px 25px;
     margin-left: 25px;
     img {
-      height: 65px;
+      height: 52px;
     }
   }
   .nav-container {
@@ -21,9 +39,28 @@ aside {
     .nav-link {
       padding: 5px;
       margin: 0 14px;
-      color: white;
+      font-size: 15px;
       text-decoration: none;
     }
+  }
+  .site-title {
+    flex-grow: 3;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.home-container {
+  height: 100%;
+  .hero-container {
+    margin-top: $nav-height;
+    background-image: url("../assets/team_pic.jpg");
+    height: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: .8;
   }
 }
 
