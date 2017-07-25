@@ -55,14 +55,16 @@ aside {
   flex-wrap: wrap;
   justify-content: center;
   .player-card {
-    margin-top: 15px;
-    margin-right: 25px;
+    margin-top: 45px;
+    margin-right: 37px;
     .photo-container {
       text-align: center;
     }
     img {
-      width: 100px;
+      height: 200px;
       overflow: hidden;
+      border-radius: 50%;
+      border: 2px solid black;
     }
     .name {
       text-align: center;

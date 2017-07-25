@@ -5,10 +5,14 @@ permalink: /roster/
 ---
 
 <div class="players">
-  {% for player in site.data.players %}
+  {% for player in site.data.roster %}
     <div class="player-card">
       <div class="photo-container">
-          <img class="photo" src={{ player.photo_url }}>
+        {% if player.photo_url_ext %}
+          <img class="photo" src={{"https://s3-us-west-1.amazonaws.com/classyultimate/" | append: player.photo_url_ext }}>
+        {% else %}
+          <img class="photo" src="https://s3-us-west-1.amazonaws.com/classyultimate/disco_ball.png">
+        {% endif %}
       </div>
       <div class="name">
         {{ player.name }}
