@@ -26,8 +26,7 @@ h1 {
 h2 {
 	font-size: 2em;
 }
-a,
-a:visited {
+a {
 	color: $link-color;
 	text-decoration: none;
 	font-weight: bold;
@@ -50,6 +49,7 @@ main {
 	padding: 0 15px;
 	max-width: $content-width;
 	margin: 0 auto;
+	margin-top: $nav-height + 50px;
 }
 time {
 	color: #898989;
@@ -62,16 +62,21 @@ time {
 /* Aside */
 
 aside {
+	background: $header;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: #fff;
 	width: 100%;
 	z-index: 2;
-	border-bottom: 1px solid lighten($light, 30%);
-	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
 }
+
 footer {
+	width: 100%;
 	text-align: center;
-	padding: 40px;
+	padding: 1px;
+	background: $header;
 }

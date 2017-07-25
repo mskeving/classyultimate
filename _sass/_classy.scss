@@ -4,25 +4,10 @@ html, body {
   height: 100%;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  padding: 0;
-}
-
-main {
-  margin-top: 60px;
-  padding-top: 20px;
-}
-
-
 aside {
-  background: black;
-  border-bottom: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  a {
+    color: white;
+  }
   .home-img {
     margin: 7px 7px 1px 25px;
     margin-left: 25px;
@@ -44,7 +29,7 @@ aside {
     }
   }
   .site-title {
-    flex-grow: 3;
+    flex-grow: 2;
     font-size: 30px;
     color: white;
     text-decoration: none;
@@ -68,6 +53,7 @@ aside {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   .player-card {
     margin-top: 15px;
     margin-right: 25px;
@@ -84,18 +70,45 @@ aside {
   }
 }
 
+.media-container {
+  .section {
+    margin-bottom: 50px;
+  }
+  .title {
+    text-align: center;
+    font-size: 29px;
+  }
+  .media-link {
+    text-align: center;
+    margin: 9px 0;
+  }
+  .twitter-timeline-container {
+    width: 60%;
+    margin: auto;
+  }
+  .videos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .video {
+    margin: 20px;
+  }
+}
+
 .contact-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 25px;
   img {
-    height: 26px;
-  }
-  a {
-    margin-left: 6px;
+    height: 21px;
   }
   .contact-link {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    margin-left: 15px;
+    padding-top: 7px;
   }
 }
