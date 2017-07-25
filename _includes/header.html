@@ -1,5 +1,5 @@
 <aside>
-	<div class="home-img nav-link"><a href={{ "/" | prepend: site.baseurl }}><img src={{ "/assets/disco_ball.png" | prepend: site.baseurl }}></a></div>
+	<div class="home-img nav-link"><a href={{ "/" | prepend: site.baseurl }}><img src={{ site.cdn_url | append: "disco_ball.png" }}></a></div>
 	<div class="nav-container">
 		{% for page in site.pages %} {% if page.title %}
 		<div><a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></div>
