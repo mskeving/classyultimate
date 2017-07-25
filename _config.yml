@@ -5,7 +5,8 @@ description: >
   Bay Area Blappers
 baseurl: "/classyultimate"
 url: "http://mskeving.github.io"
-twitter_username: classychains
+twitter_username: classyultimate
+facebook_username: classyultimate
 # Build Settings
 sass:
   sass_dir: _sass

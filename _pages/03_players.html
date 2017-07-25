@@ -10,7 +10,9 @@ permalink: /players/
       <div class="photo-container">
           <img class="photo" src={{ player.photo_url }}>
       </div>
-        {{ player.name }}, {{ player.number }}
+      <div class="name">
+        {{ player.name }}
+      </div>
     </div>
   {% endfor %}
 </div>
