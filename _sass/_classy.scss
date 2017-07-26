@@ -44,12 +44,15 @@ aside {
 
 .home-container {
   height: 100%;
+  padding-top: $nav-height;
+  
   .hero-container {
-    margin-top: $nav-height;
     // background-image: url("../assets/team_pic.jpg");
     height: 100%;
-    background-size: 100% auto;
+    //background-size: 100% auto;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     opacity: .8;
   }
