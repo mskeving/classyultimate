@@ -1,1 +1,1 @@
-https://mskeving.github.io/classyultimate
+http://classy.team
