@@ -17,6 +17,15 @@ permalink: /roster/
       <div class="name">
         {{ player.name }}
       </div>
+      {% if player.is_captain %}
+        <div class="sub-title">
+          Captain
+        </div>
+      {% elsif player.is_coach %}
+        <div class="sub-title">
+          Coach
+        </div>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
