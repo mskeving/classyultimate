@@ -47,6 +47,7 @@ aside {
   padding-top: $nav-height;
   
   .hero-container {
+    background: black;
     // background-image: url("../assets/team_pic.jpg");
     height: 100%;
     //background-size: 100% auto;
@@ -54,7 +55,10 @@ aside {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    opacity: .8;
+    @media (max-width: 900px) {
+      background-position: top;
+      background-size: contain;
+    }
   }
 }
 
