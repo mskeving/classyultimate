@@ -1,15 +1,14 @@
 ---
 layout: page
-title: Roster
-permalink: /roster/
+permalink: /roster/2017
 ---
 
 <div class="roster-header">
-  <a href="/roster/" class="selected-roster-year">2018</a>
-  <a href="/roster/2017" class="year">2017</a>
+  <a href="/roster/">2018</a>
+  <a href="/roster/2017" class="year selected-roster-year">2017</a>
 </div>
 <div class="players">
-  {% for player in site.data.roster %}
+  {% for player in site.data.roster2017 %}
     <div class="player-card">
       <div class="photo-container">
         {% if player.photo_url_ext %}

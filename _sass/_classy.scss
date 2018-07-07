@@ -58,14 +58,25 @@ aside {
   }
 }
 
+.roster-header {
+  text-align: center;
+  .year {
+    padding-left: 10px;
+  }
+  .selected-roster-year {
+    color: $main;
+  }
+}
+
 .players {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 25px;
   .player-card {
-    margin-top: 45px;
-    margin-right: 37px;
+    height: 280px;
+    width: 240px;
     .photo-container {
       text-align: center;
     }
