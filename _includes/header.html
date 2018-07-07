@@ -1,7 +1,7 @@
 <aside>
 	<div class="home-img nav-link"><a href="/"><img src={{ site.cdn_url | append: "disco_ball.png" }}></a></div>
 	<div class="nav-container">
-		{% for page in site.pages %} {% if page.title %}
+		{% for page in site.pages %} {% if page.navtitle %}
 		<div><a class="nav-link" href="{{ page.url }}">{{ page.title }}</a></div>
 		{% endif %} {% endfor %}
 	</div>
