@@ -7,6 +7,7 @@ baseurl: ""
 url: "http://localhost:4000"
 twitter_username: classyultimate
 facebook_username: classyultimate
+instagram_username: classyultimate
 cdn_url: "https://s3-us-west-1.amazonaws.com/classyultimate/"
 # Build Settings
 sass:
